@@ -1,0 +1,22 @@
+<?php
+error_reporting(0)
+?>
+<html>
+  <head>
+
+    <title>Login</title>
+  </head>
+  <body>
+    <form action="LoginCheck.php" method="POST" enctype="">
+      <fieldset>
+        <legend>LOGIN</legend>
+         Email : <br />
+        <input type="email" name="email" value="" /> <br />
+        Password : <br />
+        <input type="password" name="password" value="" /> <br />
+        <input type="submit" name="submit" value="LogIn" />
+        <a href="Registration.php">Register </a>
+      </fieldset>
+    </form>
+  </body>
+</html>
